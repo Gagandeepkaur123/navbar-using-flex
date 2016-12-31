@@ -1,0 +1,12 @@
+
+.container {
+  display: flex;
+  border:solid 1px black;
+}
+.container > :nth-child(2) {
+  margin-right: auto;
+}
+a {
+  padding: 10px;
+  text-decoration: none;
+}
